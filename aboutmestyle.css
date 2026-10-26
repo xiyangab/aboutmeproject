@@ -1,0 +1,34 @@
+html,
+body {
+  margin: 0.5rem 1rem;
+  padding: 1rem;
+  background-color: orange;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.heading {
+  text-align: center;
+}
+
+.parent {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.videoGames {
+  height: 30rem;
+  width: 16rem;
+  padding: 1rem 1rem;
+  background-color: lightcoral;
+  text-align: left;
+}
+
+.noodles {
+  height: 30rem;
+  width: 16rem;
+  padding: 1rem 1rem;
+  background-color: lightcyan;
+  text-align: left;
+}
