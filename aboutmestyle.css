@@ -18,6 +18,10 @@ body {
 }
 
 .videoGames {
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 16px;
   height: 30rem;
   width: 16rem;
   padding: 1rem 1rem;
@@ -25,10 +29,32 @@ body {
   text-align: left;
 }
 
+.videoGames img {
+  display: block;
+}
+
 .noodles {
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 16px;
   height: 30rem;
   width: 16rem;
   padding: 1rem 1rem;
   background-color: lightcyan;
   text-align: left;
+}
+
+.noodles img {
+  display: block;
+}
+
+.chowmeinimage {
+  width: 400px;
+  border-radius: 8px;
+}
+
+.leagueoflegendsimage {
+  width: 200px;
+  border-radius: 8px;
 }

@@ -12,6 +12,9 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: #191e24;
   height: 55rem;
   width: 30rem;
@@ -20,15 +23,44 @@ body {
   /* pading is space inside of element */
   padding: 1rem;
   color: #ffffff;
-}
-
-/* #test {
-  background-color: #00ff00;
-} */
-
-.card-title {
   margin: 1rem 0 0 0;
   font-size: 1.8rem;
   font-weight: 600;
+  border-radius: 0.8rem;
+  /* align-content: center; */
+}
+
+.card-title {
   text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.card-img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+.card-price {
+  margin: 0;
+  /* auto; centers it continue with margin */
+}
+
+.card-btn {
+  height: 4rem;
+  padding: 0 1.6rem;
+  background-color: #605dff;
+  color: #edf0ff;
+  border: 1px solid #5250e0;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.card-btn:hover {
+  background-color: #7573ff;
 }
