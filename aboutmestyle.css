@@ -1,17 +1,33 @@
 html,
 body {
-  margin: 0.5rem 1rem;
-  padding: 1rem;
-  background-color: orange;
   font-size: 25px;
   font-family: sans-serif;
+  margin: 0;
+  background-color: orange;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(herolandscape.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #ffffff;
 }
 
 .heading {
   text-align: center;
 }
 
-.parent {
+.heading h1 {
+  margin-top: 0;
+}
+
+.aboutme {
   display: flex;
   gap: 20px;
   justify-content: center;
