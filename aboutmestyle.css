@@ -20,7 +20,9 @@ body {
 }
 
 .heading {
+  padding-top: 5rem;
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 .heading h1 {
@@ -31,6 +33,7 @@ body {
   display: flex;
   gap: 20px;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .videoGames {
@@ -73,4 +76,22 @@ body {
 .leagueoflegendsimage {
   width: 200px;
   border-radius: 8px;
+}
+
+.button {
+  display: inline-block;
+  padding: 1.4rem 3.2rem;
+  font-size: 1rem;
+  color: black;
+  background-color: lightgreen;
+  text-decoration: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-color: black;
+  border-width: 0.1rem;
+}
+
+.button:hover {
+  background-color: darkgreen;
 }
